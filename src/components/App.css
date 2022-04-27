@@ -1,0 +1,233 @@
+body {
+
+  background: url("gif.gif");
+}
+
+.box {
+  border: 1px solid #dfdfdf;
+  background-color: #fff;
+}
+
+.g-btn {
+  width: 100% !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  font-size: 15px !important;
+}
+.g-btn > div,
+.g-btn > div > svg {
+  width: 40px !important;
+  height: 38px !important;
+}
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 8rem;
+  color: palevioletred;
+  text-transform: uppercase;
+  margin: 4rem 0;
+ 
+}
+
+
+.button {
+  height: 35px;
+  width: 110px;
+  background-color: palevioletred;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+h2 {
+color: palevioletred;
+background-color: rgb(255, 199, 218,0.9);
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(204, 83, 123);
+}
+.search-form {
+  width: 50rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(255, 199, 218);
+  border-radius: 0.5rem;
+  margin-bottom: 5rem;
+  position: relative;
+
+
+}
+
+.alert {
+  position: absolute;
+  top: -3rem;
+  left: 0;
+  background-color: rgb(255, 199, 218);
+  width: calc(100% - 0.4rem);
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+
+.alert h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.search-form input {
+  font-size: 1.6rem;
+  border: none;
+  border-bottom: 0.1rem solid #ccc;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+  height: 3.5rem;
+}
+
+.search-form input[type="text"] {
+  padding: 0 0.5rem;
+  width: 60%;
+ 
+}
+
+.search-form input[type="submit"] {
+  width: 25%;
+  text-transform: uppercase;
+  background-color: palevioletred;
+  color: #fff;
+}
+
+.recipes {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.recipe {
+  width: 30rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 199, 218);
+  padding: 2rem;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 2rem 3rem 5rem #aaa;
+}
+
+.recipe h2 {
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  position: absolute;
+  top: 2.5rem;
+  left: 2.5rem;
+  right: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 1400;
+}
+
+.recipe img {
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.recipe a {
+  font-size: 1.8rem;
+  color: palevioletred;
+}
+
+.recipe button {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: palevioletred;
+  border: none;
+  border-radius: 0.5rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.recipe button:hover {
+  background-color: rgb(204, 83, 123);
+}
+.ingredient-list {
+  margin-top: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.ingredient-list li {
+  margin: 0.5rem 0;
+}
+
+
+
+.ingredient-weight {
+  color: palevioletred;
+  font-size: 1.5 rem;
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 15% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: palevioletred; }
+}
+
+.circle 
+{
+  border-radius: 50%;
+  height: 50px;
+  margin-left: 25%;
+}
+
+.right {
+ margin-right: 5%;
+ 
+ 
+}
